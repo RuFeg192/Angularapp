@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #000;
+    padding: 30px;
+
+    &-list{
+        @include flex-centre;
+        gap: 1rem;
+    }
+
+    &_item{
+        list-style: none;
+        color:#fff;
+    }
+}
